@@ -1,0 +1,52 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+.terraform/
+terraform.tfstate*
+terraform.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# Docker
+*.tar
+*.tar.gz
+
+# Jenkins workspace (too large)
+jenkins_home/
+*.hpi
+*.jpi
+
+# Minikube
+.minikube/
+.kube/
+
+# Node modules (if any)
+node_modules/
+npm-debug.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
